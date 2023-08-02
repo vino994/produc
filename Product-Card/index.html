@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product - Details</title>
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+            <img src="3.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <p><q>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard 
+                dummy text ever since the 1500s</q>
+            </p>
+            <h1>Product-Name</h1>
+        </div>
+    </div>
+    <script>
+        var Card = document.querySelector('.card');
+        Card.addEventListener('click',()=>{
+            Card.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
